@@ -1,6 +1,6 @@
-let average = require("./get-average");
+const average = require("./get-average");
 
-test("Average", function () {
+test("Average", () => {
   let numbers = [4, "-", 8, 11, "hello", "57", 0, 2];
   let expected = 5;
 

@@ -8,7 +8,7 @@
 // calculate and return the factorial of int
 // note: factorial of 0 is 1
 
-function factorial(int) {
+const factorial = (int) => {
   let sum = int;
 
   if (int === 0 || int === 1) {
@@ -21,6 +21,6 @@ function factorial(int) {
   }
 
   return sum;
-}
+};
 
 module.exports = factorial;

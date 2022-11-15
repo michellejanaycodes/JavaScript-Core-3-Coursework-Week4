@@ -1,4 +1,4 @@
-function convertToNewRoman(n) {
+const convertToNewRoman = (n) => {
   const numerals = {
     M: 1000,
     CM: 900,
@@ -22,6 +22,7 @@ function convertToNewRoman(n) {
     }
   }
   return roman;
-}
+};
+
 
 module.exports = convertToNewRoman;

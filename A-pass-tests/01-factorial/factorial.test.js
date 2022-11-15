@@ -1,6 +1,6 @@
-let factorial = require("./factorial");
+const factorial = require("./factorial");
 
-describe("Factorial", function () {
+describe("Factorial", () => {
   test("Factorial", function () {
     let in1 = 5;
     let exp1 = 120;
